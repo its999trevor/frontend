@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <!-- <div class="container">
+            
+        </div> -->
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+    let heading=React.createElement("h1",{id:"heading",name:"asda"},"hello world");
+    let heading2=React.createElement("h2",{id:"heading2",name:"heading 2"},"hello React");
+    let root=ReactDOM.createRoot(document.querySelector("#root"));
+    let container=React.createElement("div",{className:"container"},[heading,heading2]);
+    root.render(container);
+    
+</script>
+</body>
+</html>

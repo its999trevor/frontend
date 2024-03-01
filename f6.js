@@ -1,0 +1,14 @@
+console.log(1+"1");
+console.log(10-"1");
+console.log(10+"A"-1);
+console.log(Number("10A"));
+console.log(parseFloat(1));
+let str="10";
+console.log(typeof (str));
+console.log(str.parseFloat);
+console.log(1+ +"1");
+console.log(+[]);
+console.log(+" ");
+console.log(+[[],[]]);
+console.log([].toString);
+console.log(""==0);
